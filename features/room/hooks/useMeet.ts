@@ -5,7 +5,7 @@ import { getToken } from "../actions";
 type Props = {
   id: number;
   name: string;
-  image: string;
+  image?: string;
 };
 
 const apiKey = process.env.NEXT_PUBLIC_STREAM_API_KEY;

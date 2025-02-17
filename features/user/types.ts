@@ -3,12 +3,12 @@ export type User = {
   id: number;
   firstname: string;
   fullname: string;
-  profile: string;
+  profile?: string;
   phone: string;
   email: string;
   isTeacher: boolean;
-  teacher_id: number;
-  teacher_profile: string;
+  teacher_id?: number;
+  teacher_profile?: string;
   host?: "https://idioma.kongoriver.org";
   isActive?: boolean;
 };
