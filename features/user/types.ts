@@ -3,6 +3,7 @@ export type User = {
   id: number;
   firstname: string;
   fullname: string;
+  profile: string;
   phone: string;
   email: string;
   isTeacher: boolean;
