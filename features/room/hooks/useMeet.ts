@@ -14,10 +14,8 @@ export function useMeet({ id, name, image }: Props) {
   const [client, setclient] = useState<StreamVideoClient | undefined>();
 
   useEffect(() => {
-    if (!apiKey) throw new Error("Video API Key not found !");
-
     const client = new StreamVideoClient({
-      apiKey: apiKey,
+      apiKey: apiKey || "",
       user: {
         id: String(id),
         name: name,

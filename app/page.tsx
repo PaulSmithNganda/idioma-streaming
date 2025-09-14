@@ -4,11 +4,11 @@ import {Suspense} from "react";
 
 export default function Page() {
     return (
-        <div className="w-full h-screen flex justify-center items-center">
+        <div className="min-h-screen flex justify-center items-center p-4">
             <Suspense
                 fallback={
-                    <div>
-                        <Skeleton className="bg-white w-full h-44"/>
+                    <div className="w-full max-w-md mx-auto">
+                        <Skeleton className="bg-gray-100 w-full h-96 rounded-xl"/>
                     </div>
                 }>
                 <CardUser/>
