@@ -16,7 +16,7 @@ const Unauthorized = () => {
           !
         </p>
         <Button variant={"secondary"}>
-          <Link href={"https://idioma.vercel.com"}>Retourner sur Idioma</Link>
+          <Link href={"https://tutor.idioma.international"}>Retourner sur Idioma</Link>
         </Button>
       </div>
     </div>

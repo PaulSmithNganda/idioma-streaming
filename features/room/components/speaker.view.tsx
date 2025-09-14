@@ -155,7 +155,7 @@ const SpeakerView = () => {
         <div className="flex fixed bottom-2 w-full justify-center items-center gap-5 flex-wrap">
           <CallControls
             onLeave={() =>
-              router.push("https://idioma.vercel.app/en/app/planning")
+              router.push("https://tutor.idioma.international/sessions")
             }
           />
           <DropdownMenu>
